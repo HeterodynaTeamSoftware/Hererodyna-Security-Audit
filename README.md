@@ -61,21 +61,6 @@ Do pracy z kodem źródłowym skopiuj katalog [`heterodyna-audit/`](heterodyna-a
 
 **Zalecenie:** przed audytem wykonaj kopię zapasową i użyj odizolowanego stagingu, szczególnie przy uruchamianiu aktywnych prób HTTP. Nie testuj cudzych witryn bez upoważnienia.
 
-## Kod i testy
-
-Źródła wtyczki są w katalogu [`heterodyna-audit/`](heterodyna-audit/), a zestawy testowe w [`heterodyna-audit/tests/`](heterodyna-audit/tests/).
-
-```bash
-cd heterodyna-audit
-php tests/run-all.php
-node --check panel.js
-sha256sum -c SOURCE-SHA256.txt
-```
-
-Weryfikacja paczki v15.9.4 przed publikacją: **201/201** plików PHP przeszło kontrolę składni, **120/120** zestawów testowych ukończyło się poprawnie, a sprawdzenie JavaScript i sum SHA-256 zakończyło się powodzeniem. To testy lokalne — nie potwierdzają działania na dowolnej instalacji WordPress.
-
-Historia zmian: [CHANGELOG-15.9.4.txt](heterodyna-audit/CHANGELOG-15.9.4.txt). Informacje o bezpieczeństwie: [SECURITY.md](SECURITY.md).
-
 ## Licencja i autor
 
 **GPL-2.0-or-later** — [LICENSE](LICENSE). Projekt rozwijany przez [Heterodyna Team Software](https://heterodynateamsoftware.pl/).
