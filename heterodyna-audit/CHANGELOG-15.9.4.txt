@@ -1,0 +1,7 @@
+Heterodyna Security Audit 15.9.4 — dark UI + Open Source
+
+- Przebudowano wygląd konsoli na ciemny, cyberpunkowy panel inspirowany zaakceptowanym wzorcem.
+- Dodano dopisek Open Source w nagłówku.
+- Dodano szybkie akcje: Nowy audyt, Ustawienia, Eksport.
+- Zachowano istniejący silnik audytu, zakładki i eksporty.
+- Zsynchronizowano wersję klient/serwer do 15.9.4.

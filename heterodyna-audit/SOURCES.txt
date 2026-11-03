@@ -1,0 +1,6 @@
+Heterodyna Security Audit v15.8.2: kompletny projekt bazowy v15.6.0 (wywodzi się z v15.4.0) plus source-review156.php, włączenie modułu do raportu, panel i eksport oraz poprawka walidacji dokładnej linii w forensic148.php.
+Bez modyfikacji plików WooCommerce ani hostingu.
+
+15.8.0: nowy source-proof158.php (statyczna korelacja operacji, kontekstu funkcji i wywołań ochronnych), panel i eksport HTML, test regresyjny. Wszystkie metody in-scope bez wywołania obcych handlerów.
+
+15.8.2: eval-triage1581.php — SHA-256 konkretnej lokalnej wersji phpseclib; brak automatycznego alertu dla eval bez dowodu wejścia.

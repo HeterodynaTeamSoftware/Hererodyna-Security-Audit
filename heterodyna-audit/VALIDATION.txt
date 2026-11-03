@@ -1,0 +1,7 @@
+Weryfikacja HSA 15.9.4 (lokalna)
+- Testy PHP CLI: PASS
+- PHP -l: 201 plików poprawnych
+- node --check: PASS
+- Nagłówek: ciemny motyw + Open Source + szybkie akcje PASS
+- Silnik audytu: bez zmian funkcjonalnych deklarowanych w tej paczce
+- Testy wykonane lokalnie; nie jest to potwierdzenie działania na Twoim WordPressie
