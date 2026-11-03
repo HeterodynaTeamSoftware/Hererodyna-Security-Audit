@@ -19,6 +19,14 @@
 
 ---
 
+## Zrzuty ekranu
+
+### Kokpit audytu — v15.9.4
+
+![Heterodyna Security Audit — kokpit audytu bezpieczeństwa WordPress](screeny/security-audit-dashboard-v15.9.4.png)
+
+*Oryginalny zrzut interfejsu Heterodyna Security Audit v15.9.4.*
+
 ## O projekcie
 
 **Heterodyna Security Audit v15.9.4** to wtyczka do WordPress, która wspiera diagnostykę potencjalnych problemów bezpieczeństwa i zbieranie materiału dowodowego. Łączy analizę statyczną, kontrolę uprawnień i wybrane testy przeznaczone dla kontrolowanego środowiska. Nie należy traktować samej obecności podejrzanego wzorca w kodzie jako potwierdzonej podatności.
